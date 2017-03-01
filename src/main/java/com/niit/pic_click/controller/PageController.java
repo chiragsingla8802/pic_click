@@ -1,11 +1,17 @@
 package com.niit.pic_click.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.niit.pic_click.dao.CategoryDAO;
+
 @Controller
 public class PageController {
+	
+	@Autowired
+	private CategoryDAO categoryDAO;
 
 	@RequestMapping(value = { "/", "/home", "/index" })
 	public ModelAndView index() {
@@ -31,4 +37,12 @@ public class PageController {
 		return mv;
 	}
 
+	@RequestMapping(value = "/products")
+	public ModelAndView products() {
+		ModelAndView mv = new ModelAndView("products");
+		
+		mv.addObject("categories",categoryDAO.list());
+		
+		return mv;
+	}
 }

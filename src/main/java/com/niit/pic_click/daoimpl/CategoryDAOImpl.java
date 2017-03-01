@@ -3,12 +3,14 @@ package com.niit.pic_click.daoimpl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.niit.pic_click.dao.CategoryDAO;
 import com.niit.pic_click.dto.Category;
-
+@Repository("categoryDAO")
 public class CategoryDAOImpl implements CategoryDAO {
 
-	private static List<Category> categories=new ArrayList();
+	private static List<Category> categories=new ArrayList<Category>();
 	
 	static {
 		

@@ -20,7 +20,7 @@
 
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
-<link href="${css}/bootstrap-theme.css" rel="stylesheet">
+<link href="${css}/bootstrap-theme.min.css" rel="stylesheet">
 
 <link href="${css} }/index_product.css" rel="stylesheet">
 </head>
@@ -52,7 +52,7 @@
 								<p class="lead">Rs.1000</p>
 							</div>
 							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">view</a>
+								<a class="btn btn-success" href="/pic_click/products">view</a>
 							</div>
 						</div>
 					</div>
@@ -71,7 +71,7 @@
 								<p class="lead">Rs.1000</p>
 							</div>
 							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">view</a>
+								<a class="btn btn-success" href="/pic_click/products">view</a>
 							</div>
 						</div>
 					</div>
@@ -91,7 +91,7 @@
 								<p class="lead">Rs.1000</p>
 							</div>
 							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">view</a>
+								<a class="btn btn-success" href="/pic_click/products">view</a>
 							</div>
 						</div>
 					</div>
@@ -111,7 +111,7 @@
 								<p class="lead">Rs.1000</p>
 							</div>
 							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">view</a>
+								<a class="btn btn-success" href="/pic_click/products">view</a>
 							</div>
 						</div>
 					</div>
@@ -131,7 +131,7 @@
 								<p class="lead">Rs.1000</p>
 							</div>
 							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">view</a>
+								<a class="btn btn-success" href="/pic_click/products">view</a>
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 								<p class="lead">Rs.1000</p>
 							</div>
 							<div class="col-xs-12 col-md-6">
-								<a class="btn btn-success" href="http://www.jquery2dotnet.com">view</a>
+								<a class="btn btn-success" href="/pic_click/products">view</a>
 							</div>
 						</div>
 					</div>
