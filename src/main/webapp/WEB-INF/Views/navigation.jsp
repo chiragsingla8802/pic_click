@@ -43,7 +43,7 @@
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="/pic_click/index">Home</a></li>
 				<li><a href="#">About us</a></li>
-				<li><a href="#">View product</a></li>
+				<li><a href="/pic_click/productDescription">View products</a></li>
 				<li><a href="#">View cart</a></li>
 				<li><a href="/pic_click/register">Register here</a></li>
 			</ul>

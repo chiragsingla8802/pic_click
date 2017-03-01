@@ -24,5 +24,11 @@ public class PageController {
 		ModelAndView mv = new ModelAndView("register");
 		return mv;
 	}
+	
+	@RequestMapping(value = "/productDescription")
+	public ModelAndView productDescription() {
+		ModelAndView mv = new ModelAndView("productDescription");
+		return mv;
+	}
 
 }
