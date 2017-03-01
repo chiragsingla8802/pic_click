@@ -1,12 +1,12 @@
-<%@page isELIgnored="false" %>
+<%@page isELIgnored="false"%>
 
-<%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 
-<spring:url value="/resources/css" var="css"/>
-<spring:url value="/resources/js" var="js"/>
-<spring:url value="/resources/images" var="images"/>
-<spring:url value="/resources/fonts" var="fonts"/>
+<spring:url value="/resources/css" var="css" />
+<spring:url value="/resources/js" var="js" />
+<spring:url value="/resources/images" var="images" />
+<spring:url value="/resources/fonts" var="fonts" />
 
 <html>
 <head>
@@ -39,8 +39,8 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img
-						src="${images}/logo.png" alt="pic_click.com"></a>
+					<a class="navbar-brand" href="#"><img src="${images}/logo.png"
+						alt="pic_click.com"></a>
 				</div>
 				<div class="collapse navbar-collapse"
 					id="bs-example-navbar-collapse-1">
@@ -112,16 +112,16 @@
 			<strong>Category Title</strong>
 			<div class="btn-group">
 				<a href="#" id="list" class="btn btn-default btn-sm"><span
-					class="glyphicon glyphicon-th-list"> </span>List</a> 
-					<a href="#" id="grid" class="btn btn-default btn-sm"><span
+					class="glyphicon glyphicon-th-list"> </span>List</a> <a href="#"
+					id="grid" class="btn btn-default btn-sm"><span
 					class="glyphicon glyphicon-th"></span>Grid</a>
 			</div>
 		</div>
 		<div id="products" class="row list-group">
 			<div class="item  col-xs-4 col-lg-4">
 				<div class="thumbnail">
-					<img class="group list-group-image"
-						src="${images }/adult.jpg" alt="" />
+					<img class="group list-group-image" src="${images }/adult.jpg"
+						alt="" />
 					<div class="caption">
 						<h4 class="group inner list-group-item-heading">Adults</h4>
 						<p class="group inner list-group-item-text">Product
@@ -139,8 +139,8 @@
 			</div>
 			<div class="item  col-xs-4 col-lg-4">
 				<div class="thumbnail">
-					<img class="group list-group-image"
-						src="${images }/children.jpg" alt="" />
+					<img class="group list-group-image" src="${images }/children.jpg"
+						alt="" />
 					<div class="caption">
 						<h4 class="group inner list-group-item-heading">Children</h4>
 						<p class="group inner list-group-item-text">Product
@@ -158,8 +158,8 @@
 			</div>
 			<div class="item  col-xs-4 col-lg-4">
 				<div class="thumbnail">
-					<img class="group list-group-image"
-						src="${images }/concepts.jpg" alt="" />
+					<img class="group list-group-image" src="${images }/concepts.jpg"
+						alt="" />
 					<div class="caption">
 						<h4 class="group inner list-group-item-heading">Concepts</h4>
 						<p class="group inner list-group-item-text">Product
@@ -178,12 +178,13 @@
 			</div>
 			<div class="item  col-xs-4 col-lg-4">
 				<div class="thumbnail">
-					<img class="group list-group-image"
-						src="${images }/education.jpg" alt="" />
+					<img class="group list-group-image" src="${images }/education.jpg"
+						alt="" />
 					<div class="caption">
 						<h4 class="group inner list-group-item-heading">Education</h4>
 						<p class="group inner list-group-item-text">Product
-							description... Education picture taken while a mom helps her child in studying.</p>
+							description... Education picture taken while a mom helps her
+							child in studying.</p>
 						<div class="row">
 							<div class="col-xs-12 col-md-6">
 								<p class="lead">Rs.1000</p>
@@ -197,12 +198,13 @@
 			</div>
 			<div class="item  col-xs-4 col-lg-4">
 				<div class="thumbnail">
-					<img class="group list-group-image"
-						src="${images}/family.jpg" alt="" />
+					<img class="group list-group-image" src="${images}/family.jpg"
+						alt="" />
 					<div class="caption">
 						<h4 class="group inner list-group-item-heading">Family</h4>
 						<p class="group inner list-group-item-text">Product
-							description... family picture taken during a full family enjoying some restfull moments.</p>
+							description... family picture taken during a full family enjoying
+							some restfull moments.</p>
 						<div class="row">
 							<div class="col-xs-12 col-md-6">
 								<p class="lead">Rs.1000</p>
@@ -216,12 +218,13 @@
 			</div>
 			<div class="item  col-xs-4 col-lg-4">
 				<div class="thumbnail">
-					<img class="group list-group-image"
-						src="${images}/teenager.jpg" alt="" />
+					<img class="group list-group-image" src="${images}/teenager.jpg"
+						alt="" />
 					<div class="caption">
 						<h4 class="group inner list-group-item-heading">Teenager</h4>
 						<p class="group inner list-group-item-text">Product
-							description... this picture is taken while teens enjoying each other company.</p>
+							description... this picture is taken while teens enjoying each
+							other company.</p>
 						<div class="row">
 							<div class="col-xs-12 col-md-6">
 								<p class="lead">Rs.1000</p>
@@ -240,4 +243,5 @@
 
 	<script src="${js }/bootstrap.min.js"></script>
 </body>
+<%@include file="footer.jsp"%>
 </html>

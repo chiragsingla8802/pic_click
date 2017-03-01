@@ -1,16 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-	
-<%@page isELIgnored="false" %>
 
-<%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@page isELIgnored="false"%>
+
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 
-<spring:url value="/resources/css" var="css"/>
-<spring:url value="/resources/js" var="js"/>
-<spring:url value="/resources/images" var="images"/>
-<spring:url value="/resources/fonts" var="fonts"/>
-	
+<spring:url value="/resources/css" var="css" />
+<spring:url value="/resources/js" var="js" />
+<spring:url value="/resources/images" var="images" />
+<spring:url value="/resources/fonts" var="fonts" />
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -217,6 +217,7 @@ hr {
 	</script>
 
 	<div class="container">
+		<%@include file="navigation.jsp"%>
 		<h1 class="welcome text-center">Welcome to pic_click.com</h1>
 		<div class="card card-container">
 			<h2 class='login_title text-center'>Login</h2>
@@ -241,4 +242,5 @@ hr {
 	</div>
 	<!-- /container -->
 </body>
+<%@include file="footer.jsp"%>
 </html>

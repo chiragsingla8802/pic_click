@@ -1,15 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    
- <%@page isELIgnored="false" %>
+	pageEncoding="ISO-8859-1"%>
 
-<%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@page isELIgnored="false"%>
+
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 
-<spring:url value="/resources/css" var="css"/>
-<spring:url value="/resources/js" var="js"/>
-<spring:url value="/resources/images" var="images"/>
-<spring:url value="/resources/fonts" var="fonts"/>
+<spring:url value="/resources/css" var="css" />
+<spring:url value="/resources/js" var="js" />
+<spring:url value="/resources/images" var="images" />
+<spring:url value="/resources/fonts" var="fonts" />
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -19,8 +19,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>pic_click</title>
 <link href="${css }/bootstrap.min.css" rel="stylesheet">
-<link href="${css }/bootstrap-theme.css" rel="stylesheet" >
-	
+<link href="${css }/bootstrap-theme.css" rel="stylesheet">
+
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -35,8 +35,8 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#"><img
-				src="${image }/logo.png" alt="pic_click.com"></a>
+			<a class="navbar-brand" href="#"><img src="${images}/logo.png"
+				alt="pic_click.com"></a>
 		</div>
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
