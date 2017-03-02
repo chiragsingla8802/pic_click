@@ -13,6 +13,7 @@ import com.niit.pic_click.dto.Category;
 @Controller
 @RequestMapping("/pro")
 
+
 public class ProductController {
 
 	@Autowired 

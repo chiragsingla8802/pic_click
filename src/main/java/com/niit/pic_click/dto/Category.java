@@ -1,9 +1,17 @@
 package com.niit.pic_click.dto;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Transient;
+
+@Entity
 public class Category {
 
 
-
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
 public int getCategory_id() {
 		return category_id;
 	}
@@ -50,6 +58,7 @@ private int category_id;
 private int product_id;
 private String location;
 private String description;
+
 private double price;
 private String image_url;
 private boolean active=true;

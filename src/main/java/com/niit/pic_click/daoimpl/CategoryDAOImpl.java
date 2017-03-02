@@ -1,16 +1,31 @@
 package com.niit.pic_click.daoimpl;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import javax.transaction.Transactional;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.niit.pic_click.dao.CategoryDAO;
 import com.niit.pic_click.dto.Category;
 @Repository("categoryDAO")
+@Transactional
 public class CategoryDAOImpl implements CategoryDAO {
 
-	private static List<Category> categories=new ArrayList<Category>();
+	@Autowired
+	public SessionFactory sessionFactory;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*private static List<Category> categories=new ArrayList<Category>();
 	
 	static {
 		
@@ -93,11 +108,15 @@ public class CategoryDAOImpl implements CategoryDAO {
 		
 		categories.add(category);
 	}
-	
+	*/
 	
    public List<Category> list() {
 		// TODO Auto-generated method stub
-		return categories;
+		return sessionFactory.getCurrentSession().createQuery("FROM Category",Category.class).getResultList();
 	}
+   
+   public Category get(int category_id){
+	   return sessionFactory.getCurrentSession().get(Category.class,Integer.valueOf(category_id));
+   }
 
 }
